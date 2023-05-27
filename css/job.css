@@ -1,0 +1,77 @@
+.jobs{
+    padding-top: 140px;
+}
+
+.jobs h2{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #0c2372;
+}
+
+.jobs .job {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 1px 2px #ddd;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.jobs .job img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.jobs .job h4{
+    font-size: 22px;
+    color: #0c2372;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.jobs .job p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.7em;
+    color: #464a4e;
+}
+
+.jobs .job .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobs .job .info p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+}
+.jobs .job .info p:last-of-type{
+    border-left: none;
+    padding-left: 0px;
+}
+.jobs .job .info p span:first-of-type{
+    font-size: 14px;
+    color: #464a4e;
+}
+
+.jobs .job .info p span:last-of-type{
+    font-size: 16px;
+    color: #f27c00 ;
+    font-weight: bold;
+}
+
+.jobs .job a{
+    padding: 20px;
+    background-color: #f37c00;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 25px;
+}
